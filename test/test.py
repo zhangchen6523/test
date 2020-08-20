@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import json
 def str_to_hex(s):
     return ' '.join([hex(ord(c)).replace('0x', '') for c in s])
 
@@ -15,5 +16,8 @@ def bin_to_str(s):
 aa='20 20 20 40 20 a8 c2 41 20 20 20 c0 96 40 c3 41 21 03 f6 ee b6'
 y = bytearray.fromhex(aa)
 z = str(y)
-print(z)
-print(hex_to_str(aa).encode())
+# print(z)
+# print(hex_to_str(aa).encode())
+
+print()
+

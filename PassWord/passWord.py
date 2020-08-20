@@ -15,6 +15,9 @@ class MainUI(tk.Frame):
         self.createTextFiled()
 
     def createTextFiled(self):
+        self.passLabel = tk.Label(self, text="加密密码")
+
+    def createTextFiled(self):
         self.passLabel = tk.Label(self,text="加密密码")
         self.oldPassLabel = tk.Label(self, text="原密码")
         # 创建一个标签，输出要显示的内容
